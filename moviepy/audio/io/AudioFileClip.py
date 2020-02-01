@@ -90,5 +90,5 @@ class AudioFileClip(AudioClip):
             self.reader.close_proc()
             self.reader = None
 
-    def __del__(self):
-        self.close()
+    # def __del__(self):
+    #    self.close()
